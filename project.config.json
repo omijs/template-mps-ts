@@ -5,7 +5,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.0",
-	"projectname": "mp-jsx-ts",
+	"projectname": "mps-ts",
 	"scripts": {
 		"beforeCompile": "npm run compile",
 		"beforePreview": "npm run compile",
