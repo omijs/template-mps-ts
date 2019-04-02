@@ -1,7 +1,40 @@
 {
 	"description": "项目配置文件",
 	"packOptions": {
-		"ignore": []
+		"ignore": [
+			{
+				"type": "folder",
+				"value": "_scripts"
+			},
+			{
+				"type": "folder",
+				"value": "node_modules"
+			},
+			{
+				"type": "file",
+				"value": "package.json"
+			},
+			{
+				"type": "file",
+				"value": "package-lock.json"
+			},
+			{
+				"type": "file",
+				"value": "gulpfile.js"
+			},
+			{
+				"type": "suffix",
+				"value": ".jsx"
+			},
+			{
+				"type": "suffix",
+				"value": ".less"
+			},
+			{
+				"type": "folder",
+				"value": "common-less"
+			}
+		]
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.0",
